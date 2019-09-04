@@ -20,12 +20,11 @@ $(".dropdown")
 
 // Add slideDown animation to Bootstrap dropdown when expanding.
 $('.dropdown').mouseover(function () {
-
     $(this).toggleClass('current').find('.dropdown-menu').stop().slideDown('fast');
 });
 
 // Add slideUp animation to Bootstrap dropdown when collapsing.
 $('.dropdown').mouseout(function () {
-
     $(this).toggleClass('current').find('.dropdown-menu').stop().slideUp('fast');
 });
+
